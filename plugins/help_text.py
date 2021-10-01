@@ -47,9 +47,9 @@ async def help_user(bot, update):
                return
         except UserNotParticipant:
             await update.reply_text(
-                text="**Due To The Huge Traffic Only Group Members Can Use This Bot Means You Need To Join The Below Mentioned Group Before Using Me! **",
+                text="**Hey✨ Due To The Huge Traffic Only Group Members Can Use This Bot Means You Need To Join The Below Mentioned Group Before Using Me! **",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Anime Group", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="❣ Join My Anime Group ❣", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -88,9 +88,9 @@ async def start_me(bot, update):
                return
         except UserNotParticipant:
             await update.reply_text(
-                text="**Due To The Huge Traffic Only Group Members Can Use This Bot Means You Need To Join The Below Mentioned Group Before Using Me! **",
+                text="**Hey✨ Due To The Huge Traffic Only Group Members Can Use This Bot Means You Need To Join The Below Mentioned Group Before Using Me! **",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Anime Group", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="❣ Join My Anime Group ❣", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -102,7 +102,7 @@ async def start_me(bot, update):
                         InlineKeyboardButton('➤ Anime Channel', url='https://t.me/AnimeSigma')
                 ],
                 [
-                    InlineKeyboardButton('My Support', url='https://t.me/NarutoRobot_Support'),
+                    InlineKeyboardButton('‼ My Support ‼', url='https://t.me/NarutoRobot_Support'),
                     InlineKeyboardButton("Help", callback_data = "ghelp")
                 ],
                 [
@@ -211,7 +211,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                 caption = await get_caption(query.from_user.id)
                 c_text = caption.caption
              except:
-                c_text = "You haven't added any caption yet Noob, set your caption through /scaption command" 
+                c_text = "You haven't added any caption yet Baka, set your caption through /scaption command" 
              await query.message.edit(
                   text=f"<b>Your Custom Caption:</b> \n\n{c_text} ",
                   parse_mode="html", 
