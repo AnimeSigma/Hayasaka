@@ -66,13 +66,13 @@ async def rename_doc(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(" Sorry, Darling You've Been Banned From Using Me Lol")
+               await update.reply_text(" Sorry, Kidoo You've Been Banned From Using Me Lol")
                return
         except UserNotParticipant:
             await update.reply_text(
-                text="**Due To The Huge Traffic Only Group Members Can Use This Bot Means You Need To Join The Below Mentioned Group Before Using Me! **",
+                text="**Hey✨ Due To The Huge Traffic Only Group Members Can Use This Bot Means You Need To Join The Below Mentioned Group Before Using Me! **",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Anime Group", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="❣ Join My Anime Group ❣", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
