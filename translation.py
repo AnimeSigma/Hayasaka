@@ -16,7 +16,7 @@ class Translation(object):
     CUSTOM_CAPTION_UL_FILE = " "
     NO_THUMB_FOUND = "Thumbnail Bhi Mai Daalu Abb?🙂 "
     IFLONG_FILE_NAME = """Yo Kiddo...Decrease The Number Of Letters"""
-    ABOUT_ME = """<b>Sup? \n I'm Makise Kurisu 😎 Just Another Telegram File Renamer Bot Which Can Rename Telegram Files. \n Well, I Support Permanent Thumbnail Feature.\n \n i can also convert files into videos \n Still Got Any Issues With Me IDC, You Can Contact @NarutoRobot_Support & Tag @Vedant_Vn there For Your Answers 🙂 </b>"""
+    ABOUT_ME = """<b>Sup? \nI'm Makise Kurisu 😎 Just Another Telegram File Renamer Bot Which Can Rename Telegram Files. \nWell, I Support Permanent Thumbnail Feature.\n \nI can also convert files into videos \nStill Got Any Issues With Me IDC, You Can Contact @NarutoRobot_Support & Tag @Vedant_Vn there For Your Answers 🙂 </b>"""
     HELP_USER = """Checkout The Available Commands Here \n\nDo Join @AnimeSigma If You Found Me Helpful 😇"""
     RENAME_HELP = """Here are The Available Commands In Rename \n\n\n▪️ <code>/rename</code> : Reply To An File/video With <code>/rename Filename.extension</code> For Renaming"""
     C2V_HELP = """Here Are The Available Commands In File To Video \n\n\n ▪️<code>/c2v</code> : Reply To An File With /c2v To Convert It Into Video"""
